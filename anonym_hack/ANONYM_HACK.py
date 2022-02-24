@@ -28,7 +28,7 @@ print(Back.GREEN + '', Back.BLACK + "                                           
 print(Back.GREEN + '', Fore.YELLOW  + "                  Инструменты" + '                 ', Back.GREEN + '')
 print(Back.GREEN + '', Back.BLACK + "                                              ", Back.GREEN + '')
 print(Back.GREEN + '', Back.BLACK + '      ' + Back.RED + '!' + Back.BLACK + '                ' + Back.BLACK + '                        ' + Back.GREEN + "")
-print(Back.GREEN + '', Fore.LIGHTMAGENTA_EX  + " 1.[probiv | AH (beta)]       2.[нету]       3.[бомж плейс топ]" + '', Back.GREEN + '')
+print(Back.GREEN + '', Fore.LIGHTMAGENTA_EX  + " 1.[probiv | AH (beta)]       2.[NiceBomb | beta]       3.[бомж плейс топ]" + '', Back.GREEN + '')
 print(Back.GREEN + '', Back.BLACK + "                                              ", Back.GREEN + '')
 print(Back.GREEN + '', Fore.MAGENTA  + " '''''''''''''''''''''''''''''''''''''''''''' ", Back.GREEN + '')
 while True:
@@ -52,13 +52,13 @@ while True:
         os.execl(sys.executable, sys.executable, *sys.argv)
     try:
         if inp == 2:
-            print(Fore.GREEN + 'иди нахуй 2')
+            print(Fore.GREEN + 'Вы выбрали [NiceBomb | beta]')
             sleep(2)
             if os.sys.platform == "win32":
                 os.system("cls")
             else:
                 os.system("clear")
-            import Anon_hack
+            import nicebomber
     except Exception:
         print(Fore.RED + 'Ошибка/Неверный формат!')
         sleep(2)
