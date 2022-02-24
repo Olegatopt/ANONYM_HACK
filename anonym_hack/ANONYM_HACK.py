@@ -19,7 +19,7 @@ print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@n
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)", Back.GREEN + '')
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)", Back.GREEN + '')
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)" + '    ', Back.GREEN + '')
-print(Back.RED + '', Fore.GREEN + "     0.4.1 beta       ", Back.RED + '')
+print(Back.RED + '', Fore.RED + "     0.4.1 beta       ", Back.RED + '')
 print(Back.GREEN + '', Fore.GREEN + "Добавлено: Zphisher, Испрвлены мелкие баги", Back.RED + '')
 print(Back.GREEN + '', " =============================================", Back.GREEN + '')
 print(Back.GREEN + '', "        Made by", Fore.CYAN + "@nicecoolw                " + '      ', Back.GREEN + '')
