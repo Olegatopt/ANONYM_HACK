@@ -75,7 +75,7 @@ while True:
                 os.system("cls")
             else:
                 os.system("clear")
-            import zphisher
+            os.system("bash zphisher.sh")
     except Exception:
         print(Fore.RED + 'Ошибка/Неверный формат!')
         sleep(2)
@@ -84,6 +84,8 @@ while True:
         else:
             os.system("clear")
         os.execl(sys.executable, sys.executable, *sys.argv)
+        
+        #pip install -r requirements.txt import zphisher
 
 
 
