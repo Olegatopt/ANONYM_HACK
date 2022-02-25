@@ -5,10 +5,13 @@ import time
 from time import sleep
 from colorama import init, Fore, Back
 init(autoreset=True)
+print("ВНИМАНИЕ ВЫПОЛНЯЕТСЯ ПРОВЕРКА КОМПОНЕНТОВ ОНИ САМИ СКАЧАЮТСЯ ЕСЛИ БУДЕТ НУЖНО")
+os.system("pip install -r requirements.txt")
 if os.sys.platform == "win32":
     os.system("cls")
 else:
     os.system("clear")
+file = open('Input.txt', encoding='utf-8')
 print(Back.GREEN + '', Back.BLACK + "                                              ", Back.GREEN + '')
 print(Back.GREEN + '', Back.BLACK + "                                              ", Back.GREEN + '')
 print(Back.GREEN + '', Fore.GREEN + "ANONYM HACK | (@nicecoolw)" , Back.GREEN + '')
@@ -19,8 +22,8 @@ print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@n
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)", Back.GREEN + '')
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)", Back.GREEN + '')
 print(Back.GREEN + '', Fore.GREEN + "Инструменты от ANONYM HACK (@nicecoolw)" + '    ', Back.GREEN + '')
-print(Back.RED + '', Fore.RED + "     0.4.1 beta       ", Back.RED + '')
-print(Back.GREEN + '', Fore.GREEN + "Добавлено: Zphisher, Испрвлены мелкие баги", Back.RED + '')
+print(Back.RED + '', Fore.RED + "     0.4.3 beta       ", Back.RED + '')
+print(Back.GREEN + '', Fore.GREEN + "Добавлено: Исправлен Zphisher, Испрвлены мелкие баги, Добавлен лого", Back.RED + '')
 print(Back.GREEN + '', " =============================================", Back.GREEN + '')
 print(Back.GREEN + '', "        Made by", Fore.CYAN + "@nicecoolw                " + '      ', Back.GREEN + '')
 print(Back.GREEN + '', "        Updates:", Fore.CYAN + "https://t.me/naviborsb" + '      ', Back.GREEN + '')
